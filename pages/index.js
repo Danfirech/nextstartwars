@@ -1,4 +1,5 @@
 import Head from "next/head";
+import JotFormReact from "jotform-react";
 
 export default function Home() {
   return (
@@ -31,6 +32,9 @@ export default function Home() {
         there was no denying the presence in the chair now.{" "}
       </p>
       <br />
+      <div>
+        <JotFormReact formURL="https://form.jotform.com/213526088280153" />
+      </div>
     </div>
   );
 }
