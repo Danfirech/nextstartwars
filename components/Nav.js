@@ -1,5 +1,4 @@
-import react from "react";
-import Nav from "./Nav";
+import React from "react";
 
 export default function Nav() {
   return (
